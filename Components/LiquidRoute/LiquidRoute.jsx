@@ -20,7 +20,7 @@ export default class LiquidRoute extends Component {
   }
   render(props) {
     return (
-      <TransitionGroup>
+      <TransitionGroup component="div">
         <LiquidAnimator
           getEntryAnimation={() => {
             return this.getEntryAnimation();
